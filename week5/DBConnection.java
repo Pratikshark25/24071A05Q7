@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/college";
+    "jdbc:mysql://localhost:3306/studentdb?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "password"; 
+    private static final String PASSWORD = "Kpr@0324"; 
 
     public static Connection getConnection() {
         try {
