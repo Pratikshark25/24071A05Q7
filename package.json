@@ -1,0 +1,25 @@
+{
+  "name": "24071a05q7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratikshark25/24071A05Q7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pratikshark25/24071A05Q7/issues"
+  },
+  "homepage": "https://github.com/Pratikshark25/24071A05Q7#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
