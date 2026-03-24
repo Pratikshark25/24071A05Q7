@@ -1,5 +1,5 @@
 var WeatherApp = function() {
-    this.apiKey = 'c6705827d574311e59ec976ddceb8b93';  // Replace with your key
+    this.apiKey = 'YOUR_API_KEY';  // Replace with your key
     this.chartInstance = null;
     this.initApp();
 };
