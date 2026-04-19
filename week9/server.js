@@ -17,9 +17,7 @@ const server = http.createServer((req, res) => {
     if (req.url === "/") {
         res.write("Welcome to Home Page");
         res.end();
-    }
-
-    else if (req.url === "/os") {
+    }else if (req.url === "/os") {
         res.writeHead(200, { "Content-Type": "application/json" });
 
         const osData = {
@@ -30,16 +28,15 @@ const server = http.createServer((req, res) => {
         };
 
         res.end(JSON.stringify(osData));
-    }
-else if (req.url === "/path") {
-    const pathData = {
-        filename: path.basename(__filename),
-        dirname: path.dirname(__filename),
-        extension: path.extname(__filename)
-    };
+    }else if (req.url === "/path") {
+        const pathData = {
+            filename: path.basename(__filename),
+            dirname: path.dirname(__filename),
+            extension: path.extname(__filename)
+        };
 
-    res.end(JSON.stringify(pathData));
-}
+        res.end(JSON.stringify(pathData));
+    }
     else {
         res.write("404 Not Found");
         res.end();

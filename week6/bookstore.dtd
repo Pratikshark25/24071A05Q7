@@ -1,4 +1,6 @@
 <!ELEMENT bookstore (book+)>
+<!-- Allow namespace attributes so DTD doesn't complain --> 
+
 
 <!ELEMENT book (title, author, price, year)>
 
