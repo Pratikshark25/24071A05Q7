@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:12:17:58 +0530] "GET /login.jsp HTTP/1.1" 200 1383 http-bio-8080-exec-1 868
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:12:17:59 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:34:50 +0530] "GET /register.jsp HTTP/1.1" 200 1416 http-bio-8080-exec-5 167
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:34:54 +0530] "GET /ProductServlet HTTP/1.1" 200 - http-bio-8080-exec-7 821
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:02 +0530] "GET /history.jsp HTTP/1.1" 302 - http-bio-8080-exec-8 102
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:02 +0530] "GET /login.jsp HTTP/1.1" 200 1383 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:05 +0530] "GET /register.jsp HTTP/1.1" 200 1416 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:10 +0530] "GET /login.jsp HTTP/1.1" 200 1383 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:20 +0530] "POST /LoginServlet HTTP/1.1" 200 - http-bio-8080-exec-10 71
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:26 +0530] "GET /register.jsp HTTP/1.1" 200 1416 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:35 +0530] "POST /RegisterServlet HTTP/1.1" 200 - http-bio-8080-exec-10 57
+0:0:0:0:0:0:0:1 - - [20/Apr/2026:14:35:43 +0530] "POST /RegisterServlet HTTP/1.1" 200 - http-bio-8080-exec-10 48

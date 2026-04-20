@@ -1,4 +1,3 @@
-
 // PRODUCTS 
 const products = [
   { name: "Shoes", price: 999, img: "https://images.pexels.com/photos/19090/pexels-photo.jpg" },
@@ -124,7 +123,7 @@ function removeItem(i) {
 function checkout() {
   if (cart.length === 0) {
     alert("Cart is empty");
-    return;
+    return ;
   }
   alert("Checkout successful");
   cart = [];
